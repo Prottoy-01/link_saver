@@ -1,16 +1,76 @@
-# save_link
+# 🔗 Link Saver
 
-A new Flutter project.
-Save Link is a simple and intuitive Flutter application designed to help you store and manage your important web links. With a clean user interface, you can easily add, view, edit, and delete links. All your data is stored locally on your device for quick and offline acces
-## Getting Started
+A simple Flutter app to save, update, and delete links easily — all in one place.
 
-This project is a starting point for a Flutter application.
+📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+Save any link with a name or title
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+View all saved links in a clean list
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Update existing link name or URL
+
+Delete links instantly using a popup menu
+
+Lightweight, fast, and easy to use
+
+🧩 Pages Overview
+
+homepage.dart – Displays all saved links in a list structure.
+
+insert_link.dart – Allows users to insert and save a new link.
+
+update_link.dart – Lets users update an existing link’s name, URL, or both.
+
+Each link item includes a PopupMenuButton that provides:
+
+🗑️ Delete – remove a link
+
+✏️ Update – open the update page to modify link details
+
+🧠 How It Works
+
+Open the app — the Home Page shows all saved links.
+
+Tap the Add (+) button to go to Insert Link Page and save a new link.
+
+Tap the Popup Menu beside any link to:
+
+Delete it, or
+
+Update it via the Update Link Page.
+
+All changes are instantly reflected on the Home Page.
+
+🛠 Built With
+
+Flutter – UI framework
+
+Dart C🧠 How It Works
+
+Open the app — the Home Page shows all saved links.
+
+Tap the Add (+) button to go to Insert Link Page and save a new link.
+
+Tap the Popup Menu beside any link to:
+
+Delete it, or
+
+Update it via the Update Link Page.
+
+All changes are instantly reflected on the Home Page.
+
+Screenshots:
+![Home Screen](https://github.com/Prottoy-01/link_saver/blob/51a1004ce3f2e50c55f5cb1281d405d4851f7b13/Screenshots/Screenshot_20251029-103210.png)
+![Insert Link](https://github.com/Prottoy-01/link_saver/blob/51a1004ce3f2e50c55f5cb1281d405d4851f7b13/Screenshots/Screenshot_20251029-103246.png)
+![Update Link](https://github.com/Prottoy-01/link_saver/blob/51a1004ce3f2e50c55f5cb1281d405d4851f7b13/Screenshots/Screenshot_20251029-103236.png)
+![delete_option](https://github.com/Prottoy-01/link_saver/blob/51a1004ce3f2e50c55f5cb1281d405d4851f7b13/Screenshots/Screenshot_20251029-103225.png)
+
+🛠 Built With
+
+Flutter – UI framework
+
+Dart – Programming language
+
+Hive – for local data storage Programming language
+
