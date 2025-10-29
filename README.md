@@ -14,6 +14,7 @@ Delete links instantly using a popup menu
 
 Lightweight, fast, and easy to use
 
+
 🧩 Pages Overview
 
 homepage.dart – Displays all saved links in a list structure.
@@ -27,6 +28,7 @@ Each link item includes a PopupMenuButton that provides:
 🗑️ Delete – remove a link
 
 ✏️ Update – open the update page to modify link details
+
 
 🧠 How It Works
 
@@ -42,23 +44,7 @@ Update it via the Update Link Page.
 
 All changes are instantly reflected on the Home Page.
 
-🛠 Built With
 
-Flutter – UI framework
-
-Dart C🧠 How It Works
-
-Open the app — the Home Page shows all saved links.
-
-Tap the Add (+) button to go to Insert Link Page and save a new link.
-
-Tap the Popup Menu beside any link to:
-
-Delete it, or
-
-Update it via the Update Link Page.
-
-All changes are instantly reflected on the Home Page.
 
 Screenshots:
 ![Home Screen](https://github.com/Prottoy-01/link_saver/blob/51a1004ce3f2e50c55f5cb1281d405d4851f7b13/Screenshots/Screenshot_20251029-103210.png)
