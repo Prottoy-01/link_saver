@@ -1,6 +1,6 @@
 # 🔗 Link Saver
 
-A simple Flutter app to save, update, and delete links easily — all in one place.
+A simple Flutter app to save, update, and delete links easily.
 
 📱 Features
 
