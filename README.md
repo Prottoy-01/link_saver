@@ -27,7 +27,7 @@ Each link item includes a PopupMenuButton that provides:
 
 🗑️ Delete – remove a link
 
-✏️ Update – open the update page to modify link details
+✏️ Edit – open the update page to modify link details
 
 
 🧠 How It Works
