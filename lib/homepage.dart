@@ -41,10 +41,10 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.limeAccent,
       appBar: AppBar(
         elevation: 50,
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.black,
         title: Text(
           'Save Link',
-          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.normal),
         ),
         centerTitle: true,
       ),
