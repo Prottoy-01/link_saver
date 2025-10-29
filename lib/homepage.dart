@@ -57,7 +57,10 @@ class _HomePageState extends State<HomePage> {
                   elevation: 30,
                   shadowColor: Colors.green,
                   child: ListTile(
-                    title: Text(links[index]['title']),
+                    title: Text(
+                      links[index]['title'],
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    ),
                     subtitle: Text(links[index]['link']),
 
                     onTap: () => launchUrl(Uri.parse(links[index]['link'])),
