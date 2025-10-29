@@ -58,5 +58,5 @@ Flutter – UI framework
 
 Dart – Programming language
 
-Hive – for local data storage Programming language
+Hive – for local data storage 
 
